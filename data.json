@@ -20,3 +20,5 @@ let data =[
     "price": 2000
   }
 ]
+
+export default data;
