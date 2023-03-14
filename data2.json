@@ -1,22 +1,22 @@
 [
   {
     "id": 6,
-    "title": "Milk-shake",
+    "title": "Sprite",
     "content": "Born in France",
-    "price": 5000
+    "price": 2000
   },
 
   {
     "id": 7,
-    "title": "Hot-dog",
+    "title": "Fanta",
     "content": "Born in Seoul",
-    "price": 3000
+    "price": 2000
   },
 
   {
     "id": 8,
-    "title": "Fries",
+    "title": "Beer",
     "content": "Born in the States",
-    "price": 2000
+    "price": 3000
   }
 ]
