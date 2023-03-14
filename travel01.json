@@ -1,16 +1,16 @@
 [
   {
     'id'= 0,
-    'city'= 'New York'
+    'city'= 'New York',
     'cost'= 250
   },
   {
   'id'= 1,
-    'city'= 'Paris'
+    'city'= 'Paris',
     'cost'= 200
   },
   {'id'= 2,
-    'city'= 'Seoul'
+    'city'= 'Seoul',
     'cost'= 200
   }
 ]
