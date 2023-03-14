@@ -1,0 +1,22 @@
+[
+  {
+    "id": 6,
+    "title": "Milk-shake",
+    "content": "Born in France",
+    "price": 5000
+  },
+
+  {
+    "id": 7,
+    "title": "Hot-dog",
+    "content": "Born in Seoul",
+    "price": 3000
+  },
+
+  {
+    "id": 8,
+    "title": "Fries",
+    "content": "Born in the States",
+    "price": 2000
+  }
+]
