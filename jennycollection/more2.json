@@ -1,5 +1,5 @@
 [
-    { "id" : 6, "price" : 28000, "title" : "Activewear Jogger", "img": "../image/joggers.jpg" },
-    { "id" : 7, "price" : 20000, "title" : "Athletic Socks" , "img": "../image/socks.jpg"},
-    { "id" : 8, "price" : 73000, "title" : "Wrangler Denim" , "img": "../image/jeans.jpg"}
+    { "id" : 6, "price" : 28000, "title" : "Activewear Jogger", "img": "../../image/joggers.jpg" },
+    { "id" : 7, "price" : 20000, "title" : "Athletic Socks" , "img": "../../image/socks.jpg"},
+    { "id" : 8, "price" : 73000, "title" : "Wrangler Denim" , "img": "../../image/jeans.jpg"}
 ]
