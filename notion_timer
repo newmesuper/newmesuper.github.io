@@ -2,15 +2,27 @@
 <html>
   <body>
     <h1 id="timer">00:00</h1>
+    <button onclick="start()">Start</button>
+    <button onclick="stop()">Stop</button>
     <script>
       let sec = 0;
-      setInterval(() => {
-        sec++;
-        let min = Math.floor(sec / 60);
-        let s = sec % 60;
-        document.getElementById("timer").textContent = 
-          `${min.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-      }, 1000);
+      let timer;
+
+      function start() {
+        if (timer) return; // 이미 실행 중이면 무시
+        timer = setInterval(() => {
+          sec++;
+          let min = Math.floor(sec / 60);
+          let s = sec % 60;
+          document.getElementById("timer").textContent = 
+            `${min.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+        }, 1000);
+      }
+
+      function stop() {
+        clearInterval(timer);
+        timer = null;
+      }
     </script>
   </body>
 </html>
